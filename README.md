@@ -6,7 +6,6 @@ ROM 1.0.x is using old MTK's partitions layout with 2 separate internal data par
 
 ROM 2.0.x is using new "datamedia" layout
 
-**You'll need to repack it after compiling with [this](https://github.com/bgcngm/mtk-tools), or it won't boot**
 
 
 extra recovery.fstab entries explanation
