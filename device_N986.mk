@@ -1,0 +1,5 @@
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+  LOCAL_KERNEL := device/ZTE/N986/kernel
+else
+  LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
