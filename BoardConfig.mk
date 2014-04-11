@@ -37,3 +37,4 @@ SP2_MOUNTABLE := 0
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/gadget/lun%d/file
 DEVICE_RESOLUTION := 720x1280
 RECOVERY_SDCARD_ON_DATA := true
+BOARD_CUSTOM_BOOTIMG_MK := device/ZTE/N986/custombootimg.mk
