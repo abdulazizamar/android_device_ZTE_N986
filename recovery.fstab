@@ -12,5 +12,5 @@
 /sd-ext         auto      /dev/block/mmcblk1p2
 /nvram          emmc      /dev/nvram              flags=display="nvram";backup=1
 /uboot          emmc      /dev/uboot              flags=display="Uboot";backup=1
-/secro          emmc      /dev/block/mmcblk0p4    flags=subpartitionof=/nvram;backup=1
+/sec_ro         emmc      /dev/block/mmcblk0p4    flags=subpartitionof=/nvram;backup=1
 /logo           emmc      /dev/logo               flags=display="Boot Splash Logo";backup=1
